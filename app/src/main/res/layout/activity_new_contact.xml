@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        />
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/zipcodeET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="zipcode"
+        android:inputType="number"
+        />
+
+    <CheckBox
+        android:id="@+id/getEmailsCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getEmails" />
+
+    <Button
+        android:id="@+id/addContactBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter contact in database" />
+
+    <Button
+        android:id="@+id/exitActBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit NewContactActivity" />
+
+
+</LinearLayout>

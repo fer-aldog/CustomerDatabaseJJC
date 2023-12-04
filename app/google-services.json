@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "985506740411",
+    "firebase_url": "https://customer-database-jjc-default-rtdb.firebaseio.com",
+    "project_id": "customer-database-jjc",
+    "storage_bucket": "customer-database-jjc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985506740411:android:beea9147e273329e23119e",
+        "android_client_info": {
+          "package_name": "org.pattersonclippers.customerdatabasejjc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmdtK4Fxs7ZulP8PuCgn8sEMTqnarPO8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
